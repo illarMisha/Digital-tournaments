@@ -1,0 +1,719 @@
+@font-face {
+  font-family: 'Exo-2';
+  src: url("../fonts/Exo2-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Exo-2';
+  src: url("../fonts/Exo2-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Exo-2';
+  src: url("../fonts/Exo2-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo-2';
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #121211;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button {
+  padding: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #121211;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header__menu .header__nav {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header__menu .header__nav:first-child {
+  margin-left: 140px;
+}
+
+.header__menu .header__nav:last-child {
+  margin-right: 140px;
+}
+
+.header__menu .header__logo .header-logo {
+  width: 90px;
+  margin: 0 auto;
+}
+
+.header__inner {
+  height: 100%;
+  position: relative;
+}
+
+.header__inner .header-gif {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header__inner .header__title {
+  margin-top: 21%;
+  margin-bottom: 21%;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 96px;
+}
+
+.main {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 50px;
+  background: #0C0B0B;
+}
+
+.main .main__tournaments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.main .main__tournaments .map__tournaments {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.main .main__tournaments .map__tournaments .map__border {
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 5px solid #FFFFFF;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .main__tournaments .map__tournaments .map__border .tournaments-img {
+  width: 100%;
+}
+
+.main .main__tournaments .map__tournaments .map__border .map-button {
+  display: block;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-align: center;
+  border-top: 5px solid #FFFFFF;
+  font-weight: 700;
+  font-size: 64px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main .main__tournaments .map__tournaments .map__border .map-button:hover {
+  background-color: #FFFFFF;
+  color: #121211;
+}
+
+.main .main__tournaments .map__tournaments .map__border .map-2:hover {
+  border-bottom: 13px solid #FFFFFF;
+}
+
+.main .main__tournaments .map__tournaments .map__border:hover {
+  border: 5px solid #23ccfb;
+}
+
+.main .store {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  height: 100%;
+}
+
+.main .store__backg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.main .store__inner {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 6%;
+}
+
+.main .store__inner .store__text {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .store__inner .store__text .store__title {
+  max-width: 500px;
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.main .store__inner .store__btn {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .store__inner .store__btn .store-nav {
+  display: block;
+  font-weight: 700;
+  font-size: 48px;
+  color: #0C0B0B;
+  padding: 10px 60px;
+  background-color: #efcb10;
+}
+
+.footer {
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.footer__text {
+  margin-left: 5%;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.footer__text .footer__title {
+  font-weight: 500;
+  font-size: 64px;
+}
+
+.footer__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 10%;
+}
+
+.footer__nav .footer__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__nav .footer__block .footer-vk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.footer__nav .footer__block .footer-vk .vk {
+  width: 140px;
+}
+
+.footer__nav .footer__block .footer-youtube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.footer__nav .footer__block .footer-youtube .youtube {
+  width: 110px;
+}
+
+.footer__nav .footer__block .footer-telegram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.footer__nav .footer__block .footer-telegram .telegram {
+  width: 110px;
+}
+
+.footer__nav .footer__block .footer-instagram {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.footer__nav .footer__block .footer-instagram .instagram {
+  width: 140px;
+}
+
+@media (max-width: 1700px) {
+  .main .store__inner .store__text .store__title {
+    font-size: 56px;
+  }
+  .main .store__inner .store__btn .store-nav {
+    font-size: 40px;
+  }
+  .footer__text {
+    font-size: 30px;
+  }
+  .footer__text .footer__title {
+    font-weight: 500;
+    font-size: 56px;
+  }
+  .footer__nav {
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 1450px) {
+  .header__inner .header__title {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .main .main__tournaments .map__tournaments .map__border {
+    margin: 0 15px;
+  }
+  .main .main__tournaments .map__tournaments .map__border .map-button {
+    font-size: 48px;
+  }
+  .main .store__inner {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 6%;
+  }
+  .main .store__inner .store__text .store__title {
+    font-size: 48px;
+  }
+  .main .store__inner .store__btn .store-nav {
+    font-size: 36px;
+    padding: 10px 40px;
+  }
+  .footer__text {
+    font-size: 30px;
+  }
+  .footer__text .footer__title {
+    font-weight: 500;
+    font-size: 48px;
+  }
+  .footer__nav {
+    margin-right: 5%;
+  }
+  .footer__nav .footer__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__nav .footer__block .footer-vk {
+    margin-right: 30px;
+  }
+  .footer__nav .footer__block .footer-vk .vk {
+    width: 110px;
+  }
+  .footer__nav .footer__block .footer-youtube {
+    margin-left: 10px;
+  }
+  .footer__nav .footer__block .footer-youtube .youtube {
+    width: 80px;
+  }
+  .footer__nav .footer__block .footer-telegram {
+    margin-left: 80px;
+  }
+  .footer__nav .footer__block .footer-telegram .telegram {
+    width: 80px;
+  }
+  .footer__nav .footer__block .footer-instagram {
+    margin-left: 60px;
+  }
+  .footer__nav .footer__block .footer-instagram .instagram {
+    width: 110px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .header__inner .header__title {
+    font-size: 55px;
+  }
+  .main .store__inner .store__text .store__title {
+    margin-left: 20px;
+    font-size: 36px;
+  }
+  .main .store__inner .store__btn .store-nav {
+    font-size: 28px;
+  }
+  .footer__text {
+    margin-left: 20px;
+    font-size: 24px;
+  }
+  .footer__text .footer__title {
+    font-weight: 500;
+    font-size: 36px;
+  }
+  .footer__nav {
+    margin-right: 20px;
+  }
+  .footer__nav .footer__block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .footer__nav .footer__block .footer-vk {
+    margin-right: 30px;
+  }
+  .footer__nav .footer__block .footer-vk .vk {
+    width: 80px;
+  }
+  .footer__nav .footer__block .footer-youtube {
+    margin-left: 10px;
+  }
+  .footer__nav .footer__block .footer-youtube .youtube {
+    width: 60px;
+  }
+  .footer__nav .footer__block .footer-telegram {
+    margin-left: 70px;
+  }
+  .footer__nav .footer__block .footer-telegram .telegram {
+    width: 60px;
+  }
+  .footer__nav .footer__block .footer-instagram {
+    margin-left: 60px;
+  }
+  .footer__nav .footer__block .footer-instagram .instagram {
+    width: 80px;
+  }
+}
+
+@media (max-width: 850px) {
+  .header__menu .header__nav {
+    font-size: 24px;
+  }
+  .header__menu .header__nav:first-child {
+    margin-left: 50px;
+  }
+  .header__menu .header__nav:last-child {
+    margin-right: 50px;
+  }
+  .header__menu .header__logo .header-logo {
+    width: 50px;
+  }
+  .header__inner .header__title {
+    font-size: 40px;
+  }
+  .main .main__tournaments .map__tournaments .map__border .map-button {
+    font-size: 36px;
+  }
+  .main .store__inner .store__text .store__title {
+    font-size: 24px;
+    max-width: 300px;
+  }
+  .main .store__inner .store__btn .store-nav {
+    font-size: 16px;
+    padding: 10px 30px;
+  }
+  .footer__text {
+    font-size: 14px;
+    max-width: 350px;
+  }
+  .footer__text .footer__title {
+    font-size: 24px;
+  }
+  .footer__nav .footer__block .footer-vk {
+    margin-right: 20px;
+  }
+  .footer__nav .footer__block .footer-vk .vk {
+    width: 60px;
+  }
+  .footer__nav .footer__block .footer-youtube {
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+  .footer__nav .footer__block .footer-youtube .youtube {
+    width: 40px;
+  }
+  .footer__nav .footer__block .footer-telegram {
+    margin-left: 50px;
+    padding-top: 20px;
+  }
+  .footer__nav .footer__block .footer-telegram .telegram {
+    width: 40px;
+  }
+  .footer__nav .footer__block .footer-instagram {
+    margin-left: 30px;
+  }
+  .footer__nav .footer__block .footer-instagram .instagram {
+    width: 60px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__menu .header__nav {
+    font-size: 18px;
+  }
+  .header__menu .header__logo .header-logo {
+    padding-top: 7px;
+    width: 40px;
+  }
+  .header__inner .header__title {
+    font-size: 28px;
+  }
+  .main .main__tournaments .map__tournaments .map__border {
+    border: 2px solid #FFFFFF;
+  }
+  .main .main__tournaments .map__tournaments .map__border .map-button {
+    font-size: 24px;
+    border-top: 2px solid #FFFFFF;
+  }
+  .main .main__tournaments .map__tournaments .map__border .map-2:hover {
+    border-bottom: 0px solid #FFFFFF;
+  }
+  .main .main__tournaments .map__tournaments .map__border:hover {
+    border: 2px solid #23ccfb;
+  }
+  .main .store__inner .store__text .store__title {
+    font-size: 16px;
+    max-width: 200px;
+  }
+  .main .store__inner .store__btn .store-nav {
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+  .footer__text {
+    font-size: 12px;
+    max-width: 350px;
+  }
+  .footer__text .footer__title {
+    font-size: 16px;
+  }
+  .footer__nav .footer__block .footer-vk {
+    margin-right: 10px;
+  }
+  .footer__nav .footer__block .footer-vk .vk {
+    width: 60px;
+  }
+  .footer__nav .footer__block .footer-youtube {
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+  .footer__nav .footer__block .footer-youtube .youtube {
+    width: 40px;
+  }
+  .footer__nav .footer__block .footer-telegram {
+    margin-left: 40px;
+    padding-top: 20px;
+  }
+  .footer__nav .footer__block .footer-telegram .telegram {
+    width: 40px;
+  }
+  .footer__nav .footer__block .footer-instagram {
+    margin-left: 20px;
+  }
+  .footer__nav .footer__block .footer-instagram .instagram {
+    width: 60px;
+  }
+}
+
+@media (max-width: 440px) {
+  .header__menu .header__nav {
+    font-size: 14px;
+  }
+  .header__menu .header__nav:first-child {
+    margin-left: 30px;
+  }
+  .header__menu .header__nav:last-child {
+    margin-right: 30px;
+  }
+  .header__inner .header__title {
+    font-size: 22px;
+  }
+  .main {
+    padding-top: 20px;
+  }
+  .main .main__tournaments .map__tournaments {
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
+  .main .main__tournaments .map__tournaments .map__border {
+    border: 2px solid #FFFFFF;
+  }
+  .main .main__tournaments .map__tournaments .map__border .map-button {
+    font-size: 18px;
+  }
+  .main .store__inner .store__text .store__title {
+    font-size: 14px;
+    max-width: 150px;
+  }
+  .main .store__inner .store__btn .store-nav {
+    font-size: 12px;
+    padding: 5px 15px;
+  }
+  .footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .footer__text {
+    font-size: 10px;
+  }
+  .footer__text .footer__title {
+    font-size: 14px;
+  }
+  .footer__nav .footer__block .footer-vk {
+    margin-right: 10px;
+  }
+  .footer__nav .footer__block .footer-vk .vk {
+    width: 50px;
+  }
+  .footer__nav .footer__block .footer-youtube {
+    padding-top: 20px;
+    margin-left: 0px;
+  }
+  .footer__nav .footer__block .footer-youtube .youtube {
+    width: 30px;
+  }
+  .footer__nav .footer__block .footer-telegram {
+    margin-left: 40px;
+    padding-top: 20px;
+  }
+  .footer__nav .footer__block .footer-telegram .telegram {
+    width: 30px;
+  }
+  .footer__nav .footer__block .footer-instagram {
+    margin-left: 10px;
+  }
+  .footer__nav .footer__block .footer-instagram .instagram {
+    width: 50px;
+  }
+}

@@ -1,0 +1,217 @@
+@import "_fonts";
+@import "_null";
+@import "_classes";
+
+.header{
+    display: flex;
+    flex-direction: column;
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        background-color:#121211;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .header__nav{
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43px;
+            color: #FFFFFF;
+            text-transform:uppercase;
+            cursor: pointer;
+        }
+        .header__nav:first-child{
+            margin-left: 140px;
+        }
+        .header__nav:last-child{
+            margin-right: 140px;
+        }
+        .header__logo{
+            .header-logo{
+                width: 90px;
+                margin: 0 auto;
+            }
+        }
+    }
+    &__inner{
+        height:100%;
+        position: relative;
+       
+        .header-gif{
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+        }
+        .header__title{
+            margin-top: 21%;
+            margin-bottom: 21%;
+            position: relative;
+            text-align: center;
+            font-style: italic;
+            font-weight: 700;
+            font-size: 96px;
+        }
+    }
+}
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background: #0C0B0B;
+    .main__tournaments{
+        display: flex;
+        flex-wrap: wrap;
+        
+        .map__tournaments{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            .map__border{
+                
+                display: inline-block;
+                
+                flex-direction: column;
+                border: 5px solid #FFFFFF;
+
+                transition: 0.5s;
+                .tournaments-img{
+                    width: 100%;
+                }
+                .map-button{
+                    display: block;
+                    color:#FFFFFF;
+                    text-transform: uppercase;
+                    cursor: pointer;
+                    text-align: center;
+                    border-top: 5px solid #FFFFFF;
+                    font-weight: 700;
+                    font-size: 64px;
+
+                    transition: 0.5s;
+                }
+                .map-button:hover{
+                    background-color:#FFFFFF;
+                    color:#121211;
+                    
+                }
+                // 2 картинка маленькая, поэтому при наведении, нужно увеличить внизу линию
+                .map-2:hover{
+                    border-bottom: 13px solid #FFFFFF;
+                }
+            }
+            .map__border:hover{
+                border: 5px solid #23ccfb;
+            }
+        }
+        
+    }
+    .store{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        position: relative;
+        height: 100%;
+        
+        &__backg{
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+        }
+        &__inner{
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 6%;
+
+            .store__text{
+                width: 50%;
+                display:flex;
+                justify-content: center;
+                .store__title{
+                    max-width: 500px;
+                    font-weight: 500;
+                    font-size: 64px;
+                }
+            }
+
+            .store__btn{
+                width: 50%;
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                .store-nav{
+                    display: block;
+                    font-weight: 700;
+                    font-size: 48px;
+                    color: #0C0B0B;
+                    padding: 10px 60px;
+                    background-color:rgba(239, 203, 16, 1);
+                }
+            }
+        }
+    }
+}
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-bottom: 100px;
+    &__text{
+        margin-left: 5%;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.5;
+        .footer__title{
+            font-weight: 500;
+            font-size: 64px;
+        }
+    }
+    &__nav {
+        display: flex;
+        flex-direction: column;
+        margin-right: 10%;
+        .footer__block{
+            display: flex;   
+            .footer-vk{
+                display: flex;
+                margin-right: 50px;
+                cursor: pointer;
+                .vk{
+                    width: 140px;
+                }
+            }
+            .footer-youtube{
+                display: flex;
+                padding-top: 30px;
+                cursor: pointer;
+                .youtube{
+                    width: 110px;
+                }
+            }
+            .footer-telegram{
+                display: flex;
+                padding-top: 30px;
+                margin-left: 100px;
+                cursor: pointer;
+                .telegram{
+                    width: 110px;
+                }
+            }
+            .footer-instagram{
+                display: flex;
+                margin-left: 70px;
+                cursor: pointer;
+                .instagram{
+                    width: 140px;
+                }
+            }
+        }   
+    }
+}
+
+@import "_adaptive.scss";
+

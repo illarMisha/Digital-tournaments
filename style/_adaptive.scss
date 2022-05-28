@@ -1,0 +1,456 @@
+@media (max-width:1700px){
+.main{    
+    .store{
+        &__inner{
+            .store__text{
+                .store__title{
+                    font-size: 56px;
+                }
+            }
+            .store__btn{
+                .store-nav{
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}
+    .footer{
+        &__text{
+            font-size: 30px;
+            .footer__title{
+                font-weight: 500;
+                font-size: 56px;
+            }
+        }
+        &__nav {
+            margin-right: 5%;
+        }
+    }
+}
+@media (max-width:1450px){
+    .header{
+        &__inner{
+            .header__title{
+
+                font-size: 70px;
+            }
+        }
+    }
+}
+@media (max-width:1250px){
+    .main{
+        .main__tournaments{
+            .map__tournaments{
+                .map__border{
+                    margin: 0 15px;
+                    .map-button{
+                        font-size: 48px;
+                    }
+                }
+            }
+        }
+        .store{
+            &__inner{
+                position: relative;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: 6%;
+    
+                .store__text{
+                    .store__title{
+                        font-size: 48px;
+                    }
+                }
+                .store__btn{
+                    .store-nav{
+                        font-size: 36px;
+                        padding: 10px 40px;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        &__text{
+            font-size: 30px;
+            .footer__title{
+                font-weight: 500;
+                font-size: 48px;
+            }
+        }
+        &__nav {
+            margin-right: 5%;
+            .footer__block{
+                display: flex;   
+                .footer-vk{
+                    margin-right: 30px;
+                    .vk{
+                        width: 110px;
+                    }
+                }
+                .footer-youtube{
+                    margin-left: 10px;
+                    .youtube{
+                        width: 80px;
+                    }
+                }
+                .footer-telegram{
+                    margin-left: 80px;
+                    .telegram{
+                        width: 80px;
+                    }
+                }
+                .footer-instagram{
+                    margin-left: 60px;
+                    .instagram{
+                        width: 110px;
+                    }
+                }
+            }   
+        }
+    }
+}
+@media (max-width:1050px){
+    .header{
+        &__inner{
+            .header__title{
+                font-size: 55px;
+            }
+        }
+    }
+    .main{
+        .store{
+            &__inner{
+                .store__text{
+                    .store__title{
+                        margin-left: 20px;
+                        font-size: 36px;
+                    }
+                }
+                .store__btn{
+                    .store-nav{
+                        font-size: 28px;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        &__text{
+            margin-left: 20px;
+            font-size: 24px;
+            .footer__title{
+                font-weight: 500;
+                font-size: 36px;
+            }
+        }
+        &__nav {
+            margin-right: 20px;
+            .footer__block{
+                display: flex;   
+                .footer-vk{
+                    margin-right: 30px;
+                    .vk{
+                        width: 80px;
+                    }
+                }
+                .footer-youtube{
+                    margin-left: 10px;
+                    .youtube{
+                        width: 60px;
+                    }
+                }
+                .footer-telegram{
+                    margin-left: 70px;
+                    .telegram{
+                        width: 60px;
+                    }
+                }
+                .footer-instagram{
+                    margin-left: 60px;
+                    .instagram{
+                        width: 80px;
+                    }
+                }
+            }   
+        }
+    }
+}
+@media (max-width:850px){
+    .header{
+        &__menu{
+            .header__nav{
+                font-size: 24px;
+            }
+            .header__nav:first-child{
+                margin-left: 50px;
+            }
+            .header__nav:last-child{
+                margin-right: 50px;
+            }
+            .header__logo{
+                .header-logo{
+                    width: 50px;
+                }
+            }
+        }
+        &__inner{
+            .header__title{
+                font-size: 40px;
+            }
+        }
+    }
+    .main{
+        .main__tournaments{
+            .map__tournaments{
+                .map__border{
+                    .map-button{
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+        .store{
+            &__inner{
+                .store__text{
+                    .store__title{
+                        font-size: 24px;
+                        max-width: 300px;
+                    }
+                }
+                .store__btn{
+                    .store-nav{
+                        font-size: 16px;
+                        padding: 10px 30px;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        &__text{
+            font-size: 14px;
+            max-width: 350px;
+            .footer__title{
+                font-size: 24px;
+            }
+        }
+        &__nav {
+            .footer__block{  
+                .footer-vk{
+                    margin-right: 20px;
+                    .vk{
+                        width: 60px;
+                    }
+                }
+                .footer-youtube{
+                    padding-top: 20px;
+                    margin-left: 0px;
+                    .youtube{
+                        width: 40px;
+                    }
+                }
+                .footer-telegram{
+                    margin-left: 50px;
+                    padding-top: 20px;
+                    .telegram{
+                        width: 40px;
+                    }
+                }
+                .footer-instagram{
+                    margin-left: 30px;
+                    .instagram{
+                        width: 60px;
+                    }
+                }
+            }   
+        }
+    }
+}
+@media (max-width:600px){
+    .header{
+        &__menu{
+            .header__nav{
+                font-size: 18px;
+            }
+            .header__logo{
+                .header-logo{
+                    padding-top: 7px;
+                    width: 40px;
+                }
+            }
+        }
+        &__inner{
+            .header__title{
+                font-size: 28px;
+            }
+        }
+    }
+    .main{
+        .main__tournaments{
+            .map__tournaments{
+                .map__border{
+                    border: 2px solid #FFFFFF;
+                    .map-button{
+                        font-size: 24px;
+                        border-top: 2px solid #FFFFFF;
+                    }
+                    .map-2:hover{
+                        border-bottom: 0px solid #FFFFFF;
+                    }
+                }
+                .map__border:hover{
+                    border: 2px solid #23ccfb;
+                }
+            }
+        }
+        .store{
+            &__inner{
+                .store__text{
+                    .store__title{
+                        font-size: 16px;
+                        max-width: 200px;
+                    }
+                }
+                .store__btn{
+                    .store-nav{
+                        font-size: 12px;
+                        padding: 5px 20px;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        &__text{
+            font-size: 12px;
+            max-width: 350px;
+            .footer__title{
+                font-size: 16px;
+            }
+        }
+        &__nav {
+            .footer__block{  
+                .footer-vk{
+                    margin-right: 10px;
+                    .vk{
+                        width: 60px;
+                    }
+                }
+                .footer-youtube{
+                    padding-top: 20px;
+                    margin-left: 0px;
+                    .youtube{
+                        width: 40px;
+                    }
+                }
+                .footer-telegram{
+                    margin-left: 40px;
+                    padding-top: 20px;
+                    .telegram{
+                        width: 40px;
+                    }
+                }
+                .footer-instagram{
+                    margin-left: 20px;
+                    .instagram{
+                        width: 60px;
+                    }
+                }
+            }   
+        }
+    }
+}
+@media (max-width:440px){
+    .header{
+        &__menu{
+            .header__nav{
+                font-size: 14px;
+            }
+            .header__nav:first-child{
+                margin-left: 30px;
+            }
+            .header__nav:last-child{
+                margin-right: 30px;
+            }
+        }
+        &__inner{
+            .header__title{
+                font-size: 22px;
+            }
+        }
+    }
+    .main{
+        padding-top: 20px;
+        .main__tournaments{
+            .map__tournaments{
+                margin-bottom: 0px;
+                margin-top: 30px;
+                .map__border{
+                    border: 2px solid #FFFFFF;
+                    .map-button{
+                        font-size: 18px;
+                    }
+
+                }
+            }
+        }
+        .store{
+            &__inner{
+                .store__text{
+                    .store__title{
+                        font-size: 14px;
+                        max-width: 150px;
+                    }
+                }
+                .store__btn{
+                    .store-nav{
+                        font-size: 12px;
+                        padding: 5px 15px;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        &__text{
+            font-size: 10px;
+            .footer__title{
+                font-size: 14px;
+            }
+        }
+        &__nav {
+            .footer__block{  
+                .footer-vk{
+                    margin-right: 10px;
+                    .vk{
+                        width: 50px;
+                    }
+                }
+                .footer-youtube{
+                    padding-top: 20px;
+                    margin-left: 0px;
+                    .youtube{
+                        width: 30px;
+                    }
+                }
+                .footer-telegram{
+                    margin-left: 40px;
+                    padding-top: 20px;
+                    .telegram{
+                        width: 30px;
+                    }
+                }
+                .footer-instagram{
+                    margin-left: 10px;
+                    .instagram{
+                        width: 50px;
+                    }
+                }
+            }   
+        }
+    }
+}
